@@ -22,3 +22,7 @@ After merging to `main`, CI/CD takes over and does things like:
 - Publish the package to npm
 - Wait for the new package version to be available on CDN (jsdelivr)
 - Run e2e tests on dev site
+
+**Create Version In Github**
+
+This is optional, in the sense that if you fail to do it, the package will still be published. Create a new version in Github and write some notes on what was changed, just for future reference.
