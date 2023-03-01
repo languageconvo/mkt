@@ -1,6 +1,6 @@
 {
   "name": "farlc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "farlc",
   "license": "MIT",
   "browser": "./dist/main.js",
