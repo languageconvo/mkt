@@ -5,7 +5,7 @@
   "license": "MIT",
   "browser": "./dist/main.js",
   "scripts": {
-    "build": "webpack serve --config webpack.dev.config.js",
+    "build": "webpack --config webpack.dev.config.js",
     "build:prod": "webpack --config webpack.prod.config.js"
   },
   "devDependencies": {
@@ -13,10 +13,12 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "jquery": "^3.6.3"
+    "@intercom/messenger-js-sdk": "^0.0.14",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3"
   }
 }
