@@ -6,7 +6,7 @@ module.exports = {
     index: './src/index.js',
   },
   // recommended production sourcemap value
-  devtool: 'source-map',
+  // devtool: 'source-map',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
